@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<View fx:id="newProdCat" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.PapaloteAdmin.views.NewProductCategoryPresenter">
+    <center>
+        <Pane prefHeight="322.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button id="button" layoutX="182.0" layoutY="201.0" mnemonicParsing="false" onAction="#OkButtonPress" prefHeight="35.0" prefWidth="85.0" stylesheets="@main.css" text="Aceptar" />
+                <Button id="button" cancelButton="true" layoutX="33.0" layoutY="201.0" mnemonicParsing="false" onAction="#cancelButtonPressed" prefHeight="35.0" prefWidth="85.0" stylesheets="@main.css" text="Cancelar" />
+                <TextField id="text" fx:id="nameField" floatText="Nombre" layoutX="50.0" layoutY="33.0" prefHeight="35.0" prefWidth="200.0" stylesheets="@login.css" />
+            <TextArea id="textArea" fx:id="descArea" layoutX="47.0" layoutY="107.0" prefHeight="54.0" prefWidth="206.0" promptText="Descripcion" stylesheets="@main.css" />
+            </children>
+        </Pane>
+    </center>
+</View>

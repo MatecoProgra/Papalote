@@ -1,0 +1,83 @@
+Process
+=======
+compile
+
+Command Line
+============
+D:\progra\graal\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite "-H:TempDirectory=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" "-H:ReflectionConfigurationFiles=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\mateo\.m2\repository\com\gluonhq\substrate\0.0.66\substrate-0.0.66.jar;C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" com.PapaloteAdmin.Main
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+Warning: The option '-H:ReflectionConfigurationFiles=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:JNIConfigurationFiles=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:-DeadlockWatchdogExitOnTimeout' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+ExitAfterRelocatableImageWrite' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:TempDirectory=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:ResourceConfigurationFiles=C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:EnableURLProtocols=http,https' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+SharedLibrary' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:DeadlockWatchdogInterval=0' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: The option '-H:+RemoveSaturatedTypeFlows' is experimental and must be enabled via '-H:+UnlockExperimentalVMOptions' in the future.
+Warning: Please re-evaluate whether any experimental option is required, and either remove or unlock it. The build output lists all active experimental options, including where they come from and possible alternatives. If you think an experimental option should be considered as stable, please file an issue.
+Warning: Option 'DynamicProxyConfigurationResources' is deprecated and might be removed in a future release. Please refer to the GraalVM release notes.
+Warning: Option 'DynamicProxyConfigurationResources' is deprecated and might be removed in a future release. Please refer to the GraalVM release notes.
+========================================================================================================================
+GraalVM Native Image: Generating 'com.papaloteadmin.main' (shared library)...
+========================================================================================================================
+For detailed information and explanations on the build output, visit:
+https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/BuildOutput.md
+------------------------------------------------------------------------------------------------------------------------
+[1/8] Initializing...                                                                                   (30.1s @ 0.16GB)
+ Java version: 23+25, vendor version: GraalVM CE 23-dev+25.1
+ Graal compiler: optimization level: 2, target machine: x86-64-v3
+ C compiler: cl.exe (microsoft, x64, 19.43.34810)
+ Garbage collector: Serial GC (max heap size: 80% of RAM)
+ 1 user-specific feature(s):
+ - com.oracle.svm.thirdparty.gson.GsonFeature
+------------------------------------------------------------------------------------------------------------------------
+ 11 experimental option(s) unlocked:
+ - '-H:DeadlockWatchdogInterval' (origin(s): command line)
+ - '-H:EnableURLProtocols' (alternative API option(s): --enable-http, --enable-https; origin(s): command line)
+ - '-H:-DeadlockWatchdogExitOnTimeout' (origin(s): command line)
+ - '-H:+ExitAfterRelocatableImageWrite' (origin(s): command line)
+ - '-H:ReflectionConfigurationFiles': Use a reflect-config.json in your META-INF/native-image/<groupID>/<artifactID> directory instead. (origin(s): command line)
+ - '-H:ResourceConfigurationFiles': Use a resource-config.json in your META-INF/native-image/<groupID>/<artifactID> directory instead. (origin(s): command line)
+ - '-H:JNIConfigurationFiles': Use a jni-config.json in your META-INF/native-image/<groupID>/<artifactID> directory instead. (origin(s): command line)
+ - '-H:IncludeResourceBundles' (origin(s): command line)
+ - '-H:+SharedLibrary' (alternative API option(s): --shared; origin(s): command line)
+ - '-H:TempDirectory' (origin(s): command line)
+ - '-H:+RemoveSaturatedTypeFlows' (origin(s): command line)
+------------------------------------------------------------------------------------------------------------------------
+Build resources:
+ - 11.96GB of memory (75.6% of 15.83GB system memory, determined at start)
+ - 8 thread(s) (100.0% of 8 available processor(s), determined at start)
+[2/8] Performing analysis...  [******]                                                                  (76.0s @ 1.31GB)
+   15,357 reachable types   (89.0% of   17,247 total)
+   25,945 reachable fields  (59.2% of   43,807 total)
+   76,265 reachable methods (64.5% of  118,185 total)
+    5,581 types,   366 fields, and 4,408 methods registered for reflection
+      133 types,   134 fields, and   214 methods registered for JNI access
+        4 native libraries: crypt32, ncrypt, version, winhttp
+[3/8] Building universe...                                                                               (7.8s @ 1.55GB)
+[4/8] Parsing methods...      [***]                                                                      (6.2s @ 1.71GB)
+[5/8] Inlining methods...     [****]                                                                     (4.1s @ 1.89GB)
+[6/8] Compiling methods...    [********]                                                                (62.8s @ 1.51GB)
+[7/8] Laying out methods...   [***]                                                                      (8.8s @ 2.02GB)
+
+------------------------------------------------------------------------------------------------------------------------
+                       16.6s (7.3% of total time) in 2136 GCs | Peak RSS: 3.21GB | CPU load: 5.55
+------------------------------------------------------------------------------------------------------------------------
+Build artifacts:
+ C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin\com.papaloteadmin.main.h (c_header)
+ C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin\com.papaloteadmin.main_dynamic.h (c_header)
+ C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin\graal_isolate.h (c_header)
+ C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin\graal_isolate_dynamic.h (c_header)
+========================================================================================================================
+Finished generating 'com.papaloteadmin.main' in 3m 44s.
+
+
+Result
+======
+result: 0

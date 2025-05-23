@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<View fx:id="newUser" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.PapaloteAdmin.views.NewUserPresenter">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="button" fx:id="saveButton" layoutX="30.0" layoutY="450.0" mnemonicParsing="false" onAction="#OkButtonPress" prefHeight="35.0" prefWidth="90.0" stylesheets="@main.css" text="Aceptar" />
+            <DatePicker id="menu" fx:id="birthdatePicker" layoutX="50.0" layoutY="402.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="200.0" promptText="Fecha de nacimiento" stylesheets="@main.css" />
+            <TextField id="textfield" fx:id="nameField" floatText="Nombre" layoutX="50.0" layoutY="22.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" stylesheets="@main.css" />
+            <TextField id="textfield" fx:id="emailField" floatText="Correo" layoutX="50.0" layoutY="84.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" stylesheets="@main.css" />
+            <TextField id="textfield" fx:id="pass1Field" floatText="Contraseña" layoutX="50.0" layoutY="156.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" stylesheets="@main.css" />
+            <TextField id="textfield" fx:id="pass2Field" floatText="Confirmar contraseña" layoutX="50.0" layoutY="230.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" stylesheets="@main.css" />
+            <ChoiceBox id="menu" fx:id="categoryMenu" layoutX="50.0" layoutY="304.0" prefWidth="200.0" stylesheets="@main.css" />
+            <Button id="button" fx:id="saveButton1" cancelButton="true" layoutX="180.0" layoutY="450.0" mnemonicParsing="false" onAction="#cancelButtonPress" prefHeight="35.0" prefWidth="90.0" stylesheets="@main.css" text="Cancelar" />
+         </children>
+      </Pane>
+   </center>
+</View>

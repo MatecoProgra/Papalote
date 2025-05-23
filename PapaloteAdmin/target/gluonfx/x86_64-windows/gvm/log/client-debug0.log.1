@@ -1,0 +1,52 @@
+[jue may 22 18:27:31 CST 2025][INFO] ==================== LINK TASK ====================
+[jue may 22 18:27:31 CST 2025][FINE] Creating icon resource
+[jue may 22 18:27:31 CST 2025][FINE] Looking for resource: /native/windows/assets/icon.ico
+[jue may 22 18:27:31 CST 2025][FINE] Copied resource C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gensrc\windows\assets\icon.ico to C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\icon\icon.ico
+[jue may 22 18:27:31 CST 2025][INFO] Default icon.ico image generated in C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gensrc\windows\assets.
+Consider copying it to C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\src\windows before performing any modification
+[jue may 22 18:27:31 CST 2025][FINE] Looking for resource: /native/windows/assets/IconGroup.rc
+[jue may 22 18:27:31 CST 2025][FINE] PB Command for rc compile: rc -fo C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.res C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.rc
+[jue may 22 18:27:31 CST 2025][FINE] Start process rc compile...
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] 
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] 
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] 
+[jue may 22 18:27:31 CST 2025][FINE] Result for rc compile: 0
+[jue may 22 18:27:31 CST 2025][FINE] PB Command for cvtres: cvtres  /machine:x64 -out:C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.obj C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.res
+[jue may 22 18:27:31 CST 2025][FINE] Start process cvtres...
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] Microsoft (R) Windows Resource To Object Converter Version 14.43.34810.0
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] 
+[jue may 22 18:27:31 CST 2025][FINE] Result for cvtres: 0
+[jue may 22 18:27:31 CST 2025][FINE] IconGroup.obj created successfully
+[jue may 22 18:27:31 CST 2025][FINE] Copied resource C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.obj to C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin\IconGroup.obj
+[jue may 22 18:27:31 CST 2025][FINE] Looking for resource: /native/windows/launcher.c
+[jue may 22 18:27:31 CST 2025][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin launcher.c
+[jue may 22 18:27:31 CST 2025][FINE] Start process compile-additional-sources...
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] 
+[jue may 22 18:27:31 CST 2025][FINE] [SUB] launcher.c
+[jue may 22 18:27:31 CST 2025][FINE] Result for compile-additional-sources: 0
+[jue may 22 18:27:31 CST 2025][FINE] PB Command for link: link C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin\launcher.obj C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\tmp\SVM-1747959844607\com.papaloteadmin.main.obj C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\gvm\PapaloteAdmin\IconGroup.obj j2pkcs11.lib java.lib net.lib nio.lib prefs.lib zip.lib sunmscapi.lib extnet.lib jvm.lib libchelper.lib advapi32.lib iphlpapi.lib secur32.lib userenv.lib version.lib ws2_32.lib winhttp.lib ncrypt.lib crypt32.lib mswsock.lib /NODEFAULTLIB:libcmt.lib /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup comdlg32.lib dwmapi.lib gdi32.lib imm32.lib shell32.lib uiautomationcore.lib urlmon.lib winmm.lib glass.lib javafx_font.lib javafx_iio.lib prism_common.lib prism_d3d.lib /WHOLEARCHIVE:glass.lib /WHOLEARCHIVE:javafx_font.lib /WHOLEARCHIVE:javafx_iio.lib /WHOLEARCHIVE:prism_common.lib /WHOLEARCHIVE:prism_d3d.lib /OUT:C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\PapaloteAdmin.exe /LIBPATH:C:\Users\mateo\.gluon\substrate\javafxStaticSdk\21-ea+11.2\windows-x86_64\sdk\lib /LIBPATH:D:\progra\graal\lib\svm\clibraries\windows-amd64 /LIBPATH:D:\progra\graal\lib\static\windows-amd64
+[jue may 22 18:27:31 CST 2025][FINE] Start process link...
+[jue may 22 18:27:32 CST 2025][INFO] [SUB] Microsoft (R) Incremental Linker Version 14.43.34810.0
+[jue may 22 18:27:32 CST 2025][INFO] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[jue may 22 18:27:32 CST 2025][INFO] [SUB] 
+[jue may 22 18:27:33 CST 2025][INFO] [SUB]    Creating library C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\PapaloteAdmin.lib and object C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\x86_64-windows\PapaloteAdmin.exp
+[jue may 22 18:27:33 CST 2025][FINE] Result for link: 0
+[jue may 22 18:27:33 CST 2025][FINE] Logging process [link] to file: C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PapaloteAdmin\target\gluonfx\log\process-link-1747960053590.log
+[jue may 22 18:27:33 CST 2025][FINE] PB Command for find executable: cmd.exe /c where /q ie4uinit.exe
+[jue may 22 18:27:33 CST 2025][FINE] Start process find executable...
+[jue may 22 18:27:33 CST 2025][FINE] Result for find executable: 0
+[jue may 22 18:27:33 CST 2025][FINE] PB Command for find windows version: cmd.exe /c ver
+[jue may 22 18:27:33 CST 2025][FINE] Start process find windows version...
+[jue may 22 18:27:33 CST 2025][FINE] [SUB] 
+[jue may 22 18:27:33 CST 2025][FINE] [SUB] Microsoft Windows [Versi�n 10.0.26100.4061]
+[jue may 22 18:27:33 CST 2025][FINE] Result for find windows version: 0
+[jue may 22 18:27:33 CST 2025][FINE] Windows version: Microsoft Windows [Versi�n 10.0.26100.4061]
+[jue may 22 18:27:33 CST 2025][FINE] Windows Build number: 26100
+[jue may 22 18:27:33 CST 2025][FINE] PB Command for Clear Explorer cache: ie4uinit -show
+[jue may 22 18:27:33 CST 2025][FINE] Start process Clear Explorer cache...
+[jue may 22 18:27:34 CST 2025][FINE] Result for Clear Explorer cache: 0

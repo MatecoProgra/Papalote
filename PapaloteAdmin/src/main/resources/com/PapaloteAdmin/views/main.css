@@ -1,0 +1,26 @@
+#textfield{
+    -fx-text-fill: white;
+}
+#menu{
+    -fx-background-color: #666666;
+    -fx-text-fill: white;
+}
+#button{
+    -fx-text-fill: white;
+    -fx-background-color: #888888;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-font-size: 18;
+}
+#textArea{
+    -fx-text-fill: black;
+    -fx-background-color: #666666;
+}
+#label{
+    -fx-font-size: 18;
+    -fx-background-color: #d52513;
+}
+#choicebox{
+    -fx-text-fill: white;
+    -fx-background-color: #666666;
+}
