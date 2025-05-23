@@ -15,4 +15,4 @@ Luego de eso el programa funcionará correctamente.
 
 Los ejecutables se encuentran en los target:
     PIAPOO\PapaloteDBManager\target
-    C:\Users\mateo\OneDrive\Documentos\PIADBYPOO\PIAPOO\PapaloteAdmin\target\gluonfx\x86_64-windows
+    PIAPOO\PapaloteAdmin\target\gluonfx\x86_64-windows
