@@ -15,4 +15,12 @@ Luego de eso el programa funcionará correctamente.
 
 Los ejecutables se encuentran en los target:
     PIAPOO\PapaloteDBManager\target,
+    
     PIAPOO\PapaloteAdmin\target\gluonfx\x86_64-windows
+
+PapaloteDBManager es el administrador de la base de datos, por lo que solo deberá abrirse antes de empezar a utilizar PapaloteAdmin
+
+PapaloteAdmin permite administrar los usuarios, productos, inventario, ordenes y ventas.
+
+El order de ejecución es el siguiente:
+Login>Main>categorias>Usuarios>Productos>Inventarios>Tomar ordenes>Mostrar ventas y detalle de venta
