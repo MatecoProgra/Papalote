@@ -1,4 +1,4 @@
-Bienvenido al pia.
+Bienvenido al Sistema administrador de "El Papalote Taco & Grill"
 
 Para poder ejecutarse, se tiene que cumplir lo siguiente:
 
