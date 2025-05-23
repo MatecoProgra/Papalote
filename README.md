@@ -14,5 +14,5 @@ Ejecutar el PapaloteAdmin luego de 2 a 5 min
 Luego de eso el programa funcionará correctamente.
 
 Los ejecutables se encuentran en los target:
-    PIAPOO\PapaloteDBManager\target
+    PIAPOO\PapaloteDBManager\target,
     PIAPOO\PapaloteAdmin\target\gluonfx\x86_64-windows
